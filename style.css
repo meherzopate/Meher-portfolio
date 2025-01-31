@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00907f; /* background color */
+}
+
+header {
+    background-color: #0dede1; /*  background for header */
+    color: #050505; /*  text color */
+    text-align: center;
+    padding: 1rem 0; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Margin between items */
+}
+
+nav ul li a {
+    color: #040404; /* White text for links */
+    text-decoration: none; /* Remove underline */
+}
+
+main {
+    padding: 2rem; /* Padding for main content */
+}
+
+section {
+    background-color: #0dede1; /* White background for sections */
+    padding: 2rem; /* Padding for sections */
+    margin-bottom: 2rem; /* Margin between sections */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 1 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h2 {
+    color: #080808; /* color for section headings */
+}
+
+.profile-pic {
+    display: block; /* Center the image */
+    margin: 20px auto; /* Center with auto margins */
+    width: 200px; /* Set width */
+    border-radius: 30%; /* Circular image */
+}
+
+.project-container {
+    display: flex; /* Flexbox for project layout */
+    flex-wrap: wrap; /* Wrap items */
+    justify-content: space-between; /* Space between items */
+}
+
+.project {
+    background-color: #02f6e6; /*background for projects */
+    padding: 1rem; /* Padding for project boxes */
+    margin: 10px; /* Margin between project boxes */
+    border-radius: 5px; /* Rounded corners */
+    flex: 1 1 30%; /* Responsive project boxes */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+}
+
+.contact-info input,
+.contact-info textarea {
+    padding: 1rem; /* Padding for inputs */
+    margin-bottom: 1rem; /* Margin between inputs */
+    border: 1px solid #010101; /* border */
+    border-radius: 10px; /* Rounded corners */
+    width: 100%; /* Full width */
+}
+
+.contact-info button {
+    background-color: #1e1c1c; /* Dark button background */
+    color: #020202; /* White text */
+    padding: 1rem; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.contact-info button:hover {
+    background-color: #020202; /*  background on hover */
+}
+
+footer {
+    text-align: center; /* Center footer text */
+    padding: 1rem 0; /* Padding for footer */
+    background-color: #1d1c1c; /* Dark background for footer */
+    color: #07b5af; /* White text color */
+}

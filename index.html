@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome To Meher's Digital Playground</h1>
+            <p>Hello! I'm Meher Zopate , a passionate web developer.</p>
+            <img src="meher.jpg.jpeg" alt="Your Picture" class="profile-pic"> <!-- Replace with your image -->
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Meher Zopate.
+                 I'm a web developer who's passionate about creating dynamic and user-friendly websites.
+                My background is in Electrical Engineering,
+                 having completed my diploma from Government Polytechnic Pune in the core Electrical branch. 
+                 My love for web development blossomed during my time at MIT College.
+                My key skills include Electrical Engineering and ChatGPT Prompting (for various coding needs).</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project">
+                    <h3>1 Phase tapping transformer </h3>
+                    <p>A single-phase tapping transformer is a type of transformer with multiple output voltage levels
+                         derived from tapped windings.
+                         It allows voltage adjustment for various applications,
+                          improving flexibility and efficiency in power distribution.</p>
+                </div>
+                <div class="project">
+                    <h3>DBMS Blood Donation Management System</h3>
+                    <p>A Blood Donation Management System (BDMS) project that efficiently manages
+                         blood donor records, blood stock, and recipient requests. 
+                         It enables hospitals and blood banks to track donations, check availability, 
+                         and streamline the donation process using a structured database for secure and quick data retrieval.</p>
+                </div>
+                <div class="project">
+                    <h3>Transmission Line Over Voltage Protection</h3>
+                    <p>Transmission Line Overvoltage Protection safeguards power lines from voltage surges caused by
+                         lightning, switching, or faults.
+                         It uses surge arresters, shielding wires, and grounding techniques to prevent 
+                         damage and ensure system stability.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Reach Me Trough :</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Meher Zopate's Portfolio </p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
